@@ -12,6 +12,7 @@
 		07B3DF6820A0AD4800DAE2CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B3DF6620A0AD4800DAE2CE /* Main.storyboard */; };
 		07B3DF6A20A0AD4A00DAE2CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B3DF6920A0AD4A00DAE2CE /* Assets.xcassets */; };
 		07B3DF6D20A0AD4A00DAE2CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B3DF6B20A0AD4A00DAE2CE /* LaunchScreen.storyboard */; };
+		07B3DF7620A0AF3300DAE2CE /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B3DF7520A0AF3200DAE2CE /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		07B3DF6920A0AD4A00DAE2CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07B3DF6C20A0AD4A00DAE2CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07B3DF6E20A0AD4A00DAE2CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07B3DF7520A0AF3200DAE2CE /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		07B3DF6120A0AD4800DAE2CE /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				07B3DF7420A0AF1D00DAE2CE /* Extensions */,
 				07B3DF6220A0AD4800DAE2CE /* AppDelegate.swift */,
 				07B3DF6420A0AD4800DAE2CE /* ViewController.swift */,
 				07B3DF6620A0AD4800DAE2CE /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				07B3DF6E20A0AD4A00DAE2CE /* Info.plist */,
 			);
 			path = WeatherApp;
+			sourceTree = "<group>";
+		};
+		07B3DF7420A0AF1D00DAE2CE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				07B3DF7520A0AF3200DAE2CE /* String.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B3DF7620A0AF3300DAE2CE /* String.swift in Sources */,
 				07B3DF6520A0AD4800DAE2CE /* ViewController.swift in Sources */,
 				07B3DF6320A0AD4800DAE2CE /* AppDelegate.swift in Sources */,
 			);
